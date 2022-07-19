@@ -1,0 +1,21 @@
+.margin-product-logo {
+  width: 100%;
+  margin: 20px 0px; }
+
+.head-product-logo h1 {
+  color: #000; }
+.head-product-logo span {
+  color: #000; }
+  .head-product-logo span > a {
+    color: #000; }
+.head-product-logo h1 {
+  font-size: 25px;
+  margin-bottom: 2%; }
+.head-product-logo span {
+  font-size: 18px;
+  text-decoration: none; }
+  .head-product-logo span > a {
+    font-size: 18px;
+    text-decoration: none; }
+
+/*# sourceMappingURL=menu-select.css.map */

@@ -1,0 +1,524 @@
+/* ---------------------------------------
+                   product
+---------------------------------------- */
+
+.product-font-size {
+    font-size: 17px;
+}
+
+.product {
+    display: flex;
+    width: 100%;
+}
+
+.product-image {
+    margin: 10px 0px;
+}
+
+.product-name {
+    width: 100%;
+    margin: 10px;
+}
+
+.ratting {
+    display: flex;
+}
+
+.ratting .star,
+.ratting .rate,
+.ratting .num-sale {
+    padding: 10px;
+    margin: 0px 10px;
+    display: flex;
+}
+
+.ratting .star p,
+.ratting .rate p,
+.ratting .num-sale p {
+    margin: 0px 10px;
+    display: flex;
+}
+
+.ratting .rate {
+    border-left: solid 2px #00000030;
+    border-right: solid 2px #00000030;
+}
+
+.ratting .star p,
+.ratting .star i {
+    color: red;
+}
+
+.fotorama {
+    width: 100%;
+    height: 100%;
+}
+
+.price {
+    margin: 10px 0px;
+    display: flex;
+    width: 100%;
+    background-color: #00000008;
+    align-items: baseline;
+}
+
+.product-name h1 {
+    font-size: 1.5rem;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+.price p {
+    margin: 20px 10px;
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.price #pr {
+    font-size: 3rem;
+}
+
+.select-detail {
+    margin: 10px;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.select-detail p {
+    margin-top: 13px;
+    width: 100px;
+}
+
+.detail-btn {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail-btn .btn {
+    padding: 5px;
+    min-width: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #00000045;
+}
+
+.detail-btn .btn:hover {
+    color: #7a4723;
+    background-color: #7a47231a;
+    border: 1px solid #7a4723;
+}
+
+.detail-btn .btn:active {
+    color: #ffffff;
+    background-color: #7a4723;
+    border: 1px solid #000000;
+}
+
+.detail-btn .active {
+    color: #7a4723;
+    background-color: #7a47231a;
+    border: 1px solid #7a4723;
+}
+
+.quantity {
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.quantity .num {
+    width: 100px;
+}
+
+.quantity input {
+    height: 29px;
+    margin: 0px 5px;
+    max-width: 50px;
+    text-align: center;
+}
+
+.quantity input:focus {
+    border: 2px solid #874514;
+}
+
+.quantity button {
+    height: 35px;
+    width: 35px;
+    color: #fff;
+    background-color: #874514;
+    border: 2px solid #414141;
+}
+
+.quantity button:active {
+    color: #874514;
+    background-color: #ffffff;
+    border: 2px solid #874514;
+}
+
+.piece {
+    display: flex;
+}
+
+.piece p {
+    margin-left: 20px;
+}
+
+.buy-product-btn {
+    margin: 10px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.buy-product-btn button {
+    height: 40px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    background-color: #ff77292e;
+    color: #ff7729;
+    border: 2px solid #ff7729;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.buy-product-btn button:hover {
+    background-color: #ff782991;
+    color: #ffffff;
+    border: 2px solid #ff7729;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.buy-product-btn button:active {
+    background-color: #ff77292e;
+    color: #ff7729;
+    border: 2px solid #ff7729;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.buy-product-btn i {
+    margin-right: 5px;
+}
+
+.buy-product-btn a {
+    padding: 0px 10px;
+    margin-right: 10px;
+    background-color: #ff7829;
+    border: 2px solid #9c410c;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.buy-product-btn a:hover {
+    background-color: #ff782961;
+    border: 2px solid #9c410c;
+    color: #ff7829;
+}
+
+.buy-product-btn a:active {
+    background-color: #ff7829;
+    border: 2px solid #9c410c;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+
+/* slide-image ------------------------------------------------------*/
+
+.product-image-bg {
+    display: flex;
+}
+
+.product-image #featured {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.thumbnail {
+    object-fit: cover;
+    max-width: 180px;
+    max-height: 100px;
+    cursor: pointer;
+    opacity: 0.5;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.thumbnail:hover {
+    opacity: 1;
+}
+
+.active {
+    opacity: 1;
+}
+
+#slide-wrapper {
+    max-width: 400px;
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+}
+
+#slider {
+    width: 440px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+
+/* #slider::-webkit-scrollbar {
+    width: 8px;
+}
+
+#slider::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+#slider::-webkit-scrollbar-thumb {
+    background-color: #dede2e;
+    outline: 1px solid slategrey;
+    border-radius: 100px;
+} */
+
+
+/* #slider::-webkit-scrollbar-thumb:hover {
+    background-color: #18b5ce;
+} */
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.arrow:hover {
+    opacity: .5;
+    width: 35px;
+    height: 35px;
+}
+
+
+/* slide-image */
+
+
+/* ---------------------------------------
+                   product
+---------------------------------------- */
+
+
+/* ---------------------------------------
+                profile store 
+-----------------------------------------*/
+
+.profile-store {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.image-bg {
+    margin: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #0000002c;
+}
+
+.image-bg .image-store {
+    display: flex;
+    align-items: center;
+}
+
+.image-store {
+    margin-right: 20px;
+}
+
+.name-btn p {
+    margin-bottom: 10px;
+}
+
+.image-store img {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.store-rate {
+    display: flex;
+    align-items: center;
+}
+
+.store-rate .bl {
+    margin-right: 10px;
+}
+
+.store-rate .bl p {
+    margin: 10px 0px;
+}
+
+.btn-chat button {
+    background-color: #ffffff;
+    padding: 5px 5px;
+    border: 1px solid #00000030;
+}
+
+
+/* ---------------------------------------
+                profile store 
+-----------------------------------------*/
+
+
+/* .btn-chat i {
+    margin-left: 5px;
+} */
+
+.product-detail {
+    margin-top: 20px;
+    height: auto;
+}
+
+.product-descript h1 {
+    padding: 20px 10px;
+    margin: 0px 10px;
+    border-bottom: 1px solid #00000030;
+}
+
+.descript {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.product-content {
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+
+.product-content img {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.comment-header h1 {
+    padding: 20px 10px;
+    margin: 0px 10px;
+    border-bottom: 1px solid #00000030;
+}
+
+.product-rating {
+    background-color: #eb881710;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.product-star {
+    width: 120px;
+    padding: 10px;
+    color: #ff0000;
+    font-size: 20px;
+}
+
+.product-star .ra {
+    display: flex;
+    align-items: baseline;
+}
+
+.product-star p {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#percen-rate {
+    font-size: 25px;
+}
+
+.product-star-btn {
+    margin-left: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.star-btn .btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+.star-btn .btn:hover {
+    color: #ff0000;
+    background-color: #ff000012;
+    border: 1px solid #ff0000;
+}
+
+.star-btn .btn:active {
+    color: #ff0000;
+    background-color: #ffffff83;
+    border: 1px solid #ff0000;
+}
+
+.star-btn .active {
+    color: #ff0000;
+    background-color: #ff000012;
+    border: 1px solid #ff0000;
+}
+
+.comment-bg {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.comment-box {
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #00000031;
+}
+
+.comment-user-img {
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+.comment-user-img img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.comment-star {
+    margin-top: 5px;
+}
+
+.comment-star i {
+    color: #ff0000;
+}
+
+.comment-text {
+    margin-top: 10px;
+}
+
+.comment-text #time {
+    margin-bottom: 10px;
+    color: #0000006f;
+}

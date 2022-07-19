@@ -1,0 +1,576 @@
+@charset "UTF-8";
+
+/* !style.css */
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 18px;
+    /* border: none; */
+    outline: none;
+    color: #fff;
+    /* padding: 14px 16px; */
+    background-color: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* .navbar a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
+  background-color: red;
+} */
+
+.dropdown-content {
+    margin-top: 5px;
+    margin-right: 10px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+}
+
+.dropdown-content>.dropdown-content-item>.dropdown-content-item-a {
+    float: none;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding: 10px 5px;
+}
+
+.dropdown-content .dropdown-content-item a:hover {
+    background-color: #874514;
+    color: #fff;
+}
+
+.show {
+    display: block;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    background-color: #874514;
+    border-top: 10px solid #613613;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav_checkbox {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.logo {
+    color: #fff;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.logo span {
+    font-size: 18px;
+}
+
+
+/* TODO เกี่ยวกับ search */
+
+.search {
+    /* margin-top: 40px; */
+    /* position: relative; */
+    bottom: #fff;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.search input {
+    padding-left: 5px;
+    height: 30px;
+    max-width: 70%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    /* padding: 0 60px 0 20px; */
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.submit-search {
+    border-radius: 5px;
+    background-color: #997950;
+    padding: 3px;
+    border: none;
+    outline: none;
+}
+
+.submit-search h1 {
+    font-size: 18px;
+}
+
+.submit-search:hover {
+    color: #fff;
+    background-color: #613613;
+}
+
+
+/* ? burger 3 ขีด */
+
+.tab-nav {
+    outline: none;
+    display: none;
+}
+
+.label {
+    display: none;
+    color: white;
+}
+
+.burger {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.content_nav {
+    grid-column: 3;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content_nav li {
+    display: inline-block;
+    margin-left: 10px;
+    /* padding-right: 10px; */
+}
+
+.content_nav li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.menu-lift-dropdown h1,
+.menu-lift-dropdown-grid h1 {
+    font-size: 18px;
+}
+
+.content_nav li>a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transform-origin: right;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 0.5s;
+}
+
+.content_nav li>a:hover::after {
+    transform: scale(1, 1);
+}
+
+
+/* ? เมนูประเภทสินค้ากับรูปสไลค์ */
+
+.content-slider-grid {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    margin-top: 2%;
+    height: 100%;
+}
+
+.content-slider-item {
+    /* display: block; */
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+}
+
+
+/* .swiper-container{
+
+    display: flex;
+    align-items: center;
+    justify-self: center;
+} */
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    /* background: #222;  */
+    display: grid;
+    align-items: center;
+    justify-self: center;
+}
+
+.swiper,
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+    font-size: 1px;
+    color: #fff;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
+.content-slider-item-2 {
+    display: none;
+}
+
+
+/* !เมนูประเภทสินค้า อยู่ฟังซ้ายทั้งหมด */
+
+.menu-lift-home-ul .menu-lift-item {
+    position: relative;
+}
+
+.menu-lift-home-ul .menu-lift-item a {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    /* padding: 10px; */
+}
+
+.menu-lift-home-ul .menu-lift-item ul {
+    position: absolute;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: none;
+    line-height: normal;
+    background-color: #fff;
+}
+
+.menu-lift-home-ul .menu-lift-item a {
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: left;
+    padding-left: 10px;
+    color: #000;
+    font-size: 18px;
+    /* padding: 10px; */
+    /* display: block;*/
+    white-space: nowrap;
+}
+
+.menu-lift-home-ul .menu-lift-item a:hover {
+    background-color: #874514;
+    color: #ffffff;
+}
+
+.border-shadow {
+    border: 2px solid #cbcbcb;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.menu-lift-home-ul .menu-lift-item ul {
+    z-index: 99;
+    left: 100%;
+    top: 0;
+}
+
+.menu-lift-home-ul .menu-lift-item:hover>a {
+    background-color: #874514;
+    color: #ffffff !important;
+}
+
+.menu-lift-home-ul .menu-lift-item:hover>ul {
+    display: block;
+}
+
+.menu-home {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    /* border: 1px solid red; */
+}
+
+.menu-lift-home {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-lift-home-ul {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    list-style: none;
+    display: grid;
+}
+
+.menu-lift-home-ul .menu-lift-item {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.menu-lift-home-ul li a {
+    padding: 15px;
+}
+
+
+/* 
+    !รูปสไลค์
+    TODO ยังไม่เสร็จ สไลค์ไม่ได้
+*/
+
+.menu-right-home {
+    display: flex;
+    grid-template-columns: 1fr;
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+}
+
+
+/*
+    ! content เนื้อหาหลักของเว็บ 
+    TODO ร้านค้าแนะนำ
+    TODO โปรโมชั่น
+    TODO สินค้าขายดี
+    ? ปรับไซต์
+*/
+
+.content {
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+.content-main {
+    width: 100%;
+    height: auto;
+}
+
+.content-main-heading {
+    padding: 30px 0 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+
+.content-main-heading h1 {
+    font-size: 30px;
+}
+
+.content-main-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    grid-gap: 1rem;
+}
+
+.content-main-item {
+    margin: 10%;
+    border: 1px solid #fff;
+}
+
+.content-main-item:hover {
+    padding: 0px;
+    border: 1px solid #874514;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.content-main-item img {
+    width: 100%;
+}
+
+.content-main-item h2 {
+    font-size: 18px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.content-main-item p {
+    font-size: 18px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.content-meet {
+    padding: 10px 0;
+    width: 100%;
+    height: auto;
+}
+
+.content-meet img {
+    width: 100%;
+}
+
+.content-product {
+    width: 100%;
+    height: auto;
+}
+
+.content-product-heading {
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.content-product-heading h1 {
+    font-size: 30px;
+}
+
+
+/* TODO รายการสินค้า */
+
+.content-product-grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 5px 0;
+    grid-gap: 1rem;
+}
+
+.content-product-item {
+    margin: 5%;
+    border: 1px solid #fff;
+}
+
+.content-product-item img {
+    width: 100%;
+}
+
+.content-product-item h2 {
+    font-size: 18px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.content-product-item p {
+    font-size: 18px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.content-product-item a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.content-product-item:hover {
+    padding: 0px;
+    border: 1px solid #874514;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+
+/* ! Footer */
+
+footer {
+    margin-top: 39px;
+    width: 100%;
+    height: 200px;
+    background: #874514;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 5px 0;
+    grid-gap: 1rem;
+}
+
+.footer-item {
+    margin: 5%;
+}
+
+.footer-item h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+}
+
+.footer-item li,
+.footer-item span {
+    margin-top: 10px;
+    color: white;
+}
+
+.footer-item a,
+.footer-item div .fa {
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    width: 100%;
+    height: 30px;
+    background: #613613;
+}
+
+.copyright-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 30px;
+}
+
+.copytext {
+    font-size: 18px;
+    justify-self: flex-start;
+    align-self: center;
+}
+
+.credits {
+    justify-self: flex-end;
+    align-self: center;
+}
+
+.credits a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.credits a:hover {
+    color: #fff;
+    transition: 0.6s;
+}
+
+
+/* !---------------------- html ----------------------*/
+
+
+/*# sourceMappingURL=style.css.map */

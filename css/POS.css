@@ -1,0 +1,400 @@
+input {
+    padding: 0px;
+    margin: 0px;
+}
+
+.text-head {
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(62, 108, 202);
+    height: auto;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+.head-text {
+    display: flex;
+    background-color: rgb(62, 108, 202);
+    height: auto;
+    margin: 0px;
+}
+
+.head-text p {
+    height: 100%;
+    font-size: 20px;
+    margin: 10px 3px;
+    color: #fff;
+    font-weight: bold;
+    padding: 0px 5px;
+}
+
+.head-btn {
+    display: flex;
+}
+
+.head-btn button {
+    background-color: #000;
+    color: white;
+    padding: 7px 10px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    justify-content: space-around;
+    align-items: center
+}
+
+.head-btn a {
+    background-color: #f44336;
+    color: white;
+    padding: 7px 10px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    justify-content: space-around;
+    align-items: center
+}
+
+#border-heder {
+    border-right: 2px solid #fff;
+}
+
+.container {
+    font-size: 17px;
+    margin: 5px 10px;
+}
+
+
+/* ----------tab----------- */
+
+.tab-menu {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.tab-menu .tab-btn {
+    height: auto;
+    width: auto;
+    display: flex;
+}
+
+.tab-menu .tab-btn>a {
+    color: rgb(255, 255, 255);
+    background-color: rgb(94, 188, 250);
+    border: 1px solid rgb(75, 75, 75);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 10% 5%;
+}
+
+.tab-menu .tab-btn>a:hover {
+    color: rgb(53, 70, 253);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-top: 2px solid rgb(53, 70, 253);
+}
+
+.tab-menu .tab-btn>a:active {
+    color: rgb(94, 188, 250);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-top: 1px solid rgb(94, 188, 250);
+}
+
+
+/* + btn */
+
+.tab-btn .add-tab {
+    background-color: rgb(138, 243, 124);
+    border: 1px solid rgb(255, 255, 255);
+    width: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.tab-btn .add-tab>a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+/* + btn */
+
+.paymoney {
+    display: flex;
+    margin-left: 10px;
+    justify-content: flex-end;
+}
+
+.chang-money {
+    display: flex;
+    margin: 20px 30px;
+    justify-content: flex-start;
+}
+
+.chang-money i {
+    margin-left: 10px;
+    font-size: 35px;
+    color: rgb(26, 132, 65);
+}
+
+.chang-money p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.paymoney button {
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px 10px;
+    padding: 10px 100px;
+    color: #fff;
+    background-color: rgb(34, 173, 94);
+}
+
+.paymoney button:hover {
+    background-color: rgb(53, 253, 56);
+}
+
+.paymoney button:active {
+    background-color: rgb(34, 173, 94);
+}
+
+
+/* ----------tab----------- */
+
+.grid-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.member-bg {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: block;
+    margin: 10px 0px;
+    padding: 10px 10px;
+}
+
+.member {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-gap: 30px;
+}
+
+.member-id,
+.member-name {
+    width: 100%;
+}
+
+.member-id p,
+.member-name p {
+    margin: 0px;
+}
+
+.member-id input,
+.member-name input {
+    font-size: 15px;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+}
+
+.member-id input:focus,
+.member-name input:focus {
+    outline: none;
+    border: 2px solid rgb(32, 177, 255);
+}
+
+.money-bg {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin: 10px 0px;
+    padding: 10px 5px;
+}
+
+.money {
+    /* padding: 0px 100px; */
+}
+
+.scrap-money {
+    margin: 25px 0px 0px 0px;
+    display: flex;
+    /* border-bottom: 1px solid rgb(183, 183, 183); */
+    height: 33px;
+    width: 100%;
+    align-items: center;
+}
+
+.scrap-money input {
+    width: 100%;
+    font-size: 15px;
+    height: 30px;
+    margin: 0px 10px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+.scrap-money input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(32, 177, 255);
+}
+
+.scrap-money>p {
+    margin: 0px 10px;
+    width: 50px;
+    text-align: right;
+}
+
+.scrap-money i {
+    margin: 10;
+}
+
+.money-leaves {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.scrap-money-underline {
+    margin: 42px 10px;
+    border-top: 2px dashed rgb(37, 121, 255);
+}
+
+
+/* --------------------------------- */
+
+.list-product {
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 460px 1fr;
+}
+
+.list-table {
+    padding: 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.search-table {
+    padding: 10px 0px;
+}
+
+.input-search {
+    width: 100%;
+}
+
+.input-search input {
+    font-size: 15px;
+    height: 30px;
+    width: 100%;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.input-search input:focus {
+    outline: none;
+    border: 2px solid rgb(32, 177, 255);
+}
+
+.table th,
+.table td {
+    border: 1px solid rgb(180, 180, 180);
+    text-align: center;
+    padding-left: 5px;
+}
+
+.table th {
+    padding: 10px 0px;
+    background-color: rgb(22, 71, 169);
+    color: #fff;
+}
+
+.tb-head-50 {
+    width: 50%;
+}
+
+.tb-head-15 {
+    width: 15%;
+}
+
+.tb-head-5 {
+    width: 5%;
+}
+
+.table {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    height: 380px;
+    overflow: scroll;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table table tbody tr td a {
+    background-color: #f44336;
+    color: white;
+    padding: 7px 10px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    border-radius: 5px;
+}
+
+.total-body {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 0px 0px;
+    margin: 10px 0px;
+}
+
+.total-list,
+.total-num {
+    display: flex;
+    margin: 10px 10px;
+    justify-content: flex-end;
+    font-size: 20px;
+    /* border: 1px solid #000; */
+}
+
+.total-list {
+    border-bottom: 1px solid rgb(131, 131, 131);
+}
+
+.total-list p,
+.total-num p {
+    text-align: center;
+    padding: 10px 0px;
+    max-width: 100px;
+    width: 100%;
+}
+
+.total-all {
+    display: flex;
+    margin: 5px 10px;
+    margin-right: 75px;
+    justify-content: space-between;
+    font-size: 45px;
+    color: rgba(0, 136, 255, 0.76);
+}

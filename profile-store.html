@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/profile-store.css">
+    <link rel="stylesheet" href="css/profile-store-responsive.css">
+    <link rel="stylesheet" href="css/resetcss.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="shortcut icon" href="img/otoplogos.gif" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        })
+    </script>
+    <title>โปรไฟล์ร้าน</title>
+
+</head>
+<div id="header"></div>
+
+
+<body>
+    <div class="font-profile">
+        <div class="container">
+            <div class="profile-header">
+                <div class="profile-con ">
+
+                    <div class="block">
+                        <div class="data">
+                            <div class="pro-logo ">
+                                <div class="avatar-img "><img src="img/otoplogos.gif" alt=""></div>
+                                <div class="profile-name ">
+                                    <p>OtopThailand</p>
+                                    <p>ผู้ติดตาม +50k</p>
+                                </div>
+                            </div>
+                            <div class="under-logo-button">
+                                <span><button class="btn follower">ติดตาม +</button></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="data1">
+                            <p>รายการสินค้า : 10</p>
+                            <p>กำลังติดตาม : 3 </p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="data1">
+                            <p>ผู้ติดตาม : 120</p>
+                            <p>คะแนน : 3.5 (ทั้งหมด : 10)</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="container">
+            <div class="menu-profile">
+                <div class="list-menu">
+                    <input class="checkbox" type="checkbox" />
+                    <div class="hamburger-lines ">
+                        <span class="line line1 "></span>
+                        <span class="line line2 "></span>
+                        <span class="line line3 "></span>
+                    </div>
+                    <div class="menu-items ">
+                        <ul>
+                            <li> <a href="# ">หน้าแรก</a></li>
+                            <li><a href="#all-item ">สินค้าแนะนำ</a></li>
+                            <li><a href="# ">ประเภทที่1</a></li>
+                            <li><a href="# ">ประเภทที่2</a></li>
+                            <li> <a href="# ">ประเภทที่3</a></li>
+                            <li>
+                                <select name=" " id=" ">
+                            <option value=" ">เพิ่มเติม</option>
+                            <option value=" ">ประเภทที่5</option>
+                            <option value=" ">ประเภทที่6</option>
+                            <option value=" ">ประเภทที่7</option>
+                        </select>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container ">
+
+            <div class="slide-grid ">
+                <div class="slide-img ">
+                    <img src="https://via.placeholder.com/1052x352 " alt=" ">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="padding-product " id="all-item ">
+            <div class="container ">
+                <div class="all-product ">
+                    <h1>สินค้าแนะนำ</h1>
+                </div>
+
+                <div class="product-grid ">
+
+                    <div class="product-grid-item ">
+                        <img src="img/waterchiliredeye.jpg " alt=" ">
+                        <h1>ชื่อสินค้า</h1>
+                        <p>ราคา</p>
+                    </div>
+
+                    <div class="product-grid-item ">
+                        <img src="https://via.placeholder.com/400x400 " alt=" ">
+                        <h1>ชื่อสินค้า</h1>
+                        <p>ราคา</p>
+                    </div>
+
+                    <div class="product-grid-item ">
+                        <img src="https://via.placeholder.com/400x400 " alt=" ">
+                        <h1>ชื่อสินค้า</h1>
+                        <p>ราคา</p>
+                    </div>
+
+                    <div class="product-grid-item ">
+                        <img src="https://via.placeholder.com/400x400 " alt=" ">
+                        <h1>ชื่อสินค้า</h1>
+                        <p>ราคา</p>
+                    </div>
+
+                    <div class="product-grid-item ">
+                        <img src="https://via.placeholder.com/400x400 " alt=" ">
+                        <h1>ชื่อสินค้า</h1>
+                        <p>ราคา</p>
+                    </div>
+
+
+
+                </div>
+                <div class="profile-content ">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+<script>
+    document.querySelectorAll('a[href^="# "]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+
+<div id="footer "></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js "></script>
+<script src="js/link.header.footer.js "></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js "></script>
+<script src="js/sliderimg.js "></script>
+
+</html>

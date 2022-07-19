@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>SHOPOTOP</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/resetcss.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/hstyel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body class="body-profile">
+    <div id="header"></div>
+    <div class="container">
+        <div class="menu-righst">
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                <h1 class="head-product">จัดการกับที่อยู่ของฉัน</h1>
+            </div>
+            <div class="row gutters">
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body-allproflie">
+                            <div class="account-settings-all">
+                                <div class="user-profile-all">
+                                    <div class="user-avatar-pofile">
+                                        <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Nav/ -->
+                        <div class="nav-settings">
+                            <div style="line-height: 30px;" id="navacc"></div>
+                        </div>
+                        <!-- /Nav/ -->
+                    </div>
+                </div>
+
+                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                    <div class="card ">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="form-group mt-3 ">
+                                <label for="address " class="text-primary ">ตั้งเป็นที่อยู่หลัก</label>
+                                <div class="form-group has-feedback mt-2" style="width:90px;">
+                                    <div class="form-control css-require">
+                                        <label><input name="address" type="radio" value="ใช่" /> ใช่</label>
+                                    </div>
+                                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                </div>
+                            </div>
+                            <div class="row-address gutters">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="fullName" style="font-size: 18px;" class="mb-2">ชื่อ</label>
+                                        <input type="text" class="form-control mt-2" id="fullName"
+                                            placeholder="Enter full name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="lastName" style="font-size: 18px;" class="mb-2">นามสกุล</label>
+                                        <input type="text" class="form-control mt-2" id="lastName"
+                                            placeholder="Enter last name">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 ">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1" style="font-size: 18px;"
+                                            class="mb-2">รายละเอียดที่อยู่เพิ่มเติม*</label>
+                                        <textarea class="form-control is-invalid" id="exampleFormControlTextarea1"
+                                            style="height: 120px;" rows="3"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="phone" style="font-size: 18px;" class="mb-2">เบอร์โทรศัพท์</label>
+                                        <input type="text" class="form-control is-invalid" id="phone"
+                                            placeholder="Enter phone number">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="form-group">
+                                        <label for="eMail" style="font-size: 18px;" class="mb-2">Email</label>
+                                        <input type="email" class="form-control is-invalid" id="eMail"
+                                            placeholder="Enter email ID">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-address gutters mb-5">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                                    <h6 class="mt-3 mb-2 text-primary" style="font-size: 20px;">จัดการที่อยู่</h6>
+                                    <br>
+                                    <div class="form-group mb-">
+                                        <label for="inputAddress" style="font-size: 18px;" class="mb-2">ที่อยู่</label>
+                                        <input type="text" class="form-control" id="inputAddress"
+                                            placeholder="บ้านเลขที่ 224 /44">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputAddress2" style="font-size: 18px;" class="mb-2">ที่อยู่
+                                            2</label>
+                                        <input type="text" class="form-control" id="inputAddress2"
+                                            placeholder="ห้องพัก, คอนโด, หรือ อพาทเม้น">
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="inputCity" style="font-size: 18px;" class="mb-2">เมือง</label>
+                                            <input type="text" class="form-control" id="inputCity"
+                                                placeholder="กรุงเทพมหานคร">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label for="inputState" style="font-size: 18px;"
+                                                class="mb-2">จังหวัด</label>
+                                            <select id="inputState" class="form-control">
+                                                <option selected>กรุงเทพมหานคร</option>
+                                                <option>กรุงเทพมหานคร</option>
+                                                <option>กรุงเทพมหานคร</option>
+                                                <option>กรุงเทพมหานคร</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-2">
+                                            <label for="inputZip" style="font-size: 18px;"
+                                                class="mb-2">รหัสไปรษณีย์</label>
+                                            <input type="text" class="form-control" id="inputZip" placeholder="10400">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-btn gutters">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="text-right">
+                                        <a type="button" href="profile-account.html" id="back" name="back"
+                                            class="btn btn-secondary">กลับ</a>
+                                        <button type="button" id="submit" name="submit"
+                                            class="btn btn-primary">บันทึก</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/link.header.footer.js"></script>
+        <script src="js/link.navacc.js"></script>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="js/sliderimg.js"></script>
+</body>
+
+</html>

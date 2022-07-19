@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ข้อผิดพลาด 404</title>
+    <link rel="shortcut icon" href="img/Error/icon-error1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/resetcss.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .wrapper-main {
+        /* font-family: 'Athiti', sans-serif; */
+        /* background-color: #874514; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* min-height: 100vh; */
+        text-align: center;
+    }
+
+    .wrapper {
+        border-radius: 15px;
+        padding: 20px;
+        background-color: #fff;
+    }
+
+    .wrapper .fa {
+        color: #874514;
+        font-size: 300px;
+    }
+
+    .wrapper h2 {
+        font-weight: 700;
+        margin: 20px 0;
+        font-size: 40px;
+    }
+
+    .wrapper h4 {
+        font-weight: 700;
+        margin: 20px 0 20px;
+        font-size: 18px;
+    }
+
+    .main-btn {
+        cursor: pointer;
+        font-size: 18px;
+        padding: 15px;
+        background-color: rgb(4, 179, 4);
+        color: #fff;
+        border: none;
+        font-weight: 700;
+        letter-spacing: 1px;
+        border-radius: 10px;
+    }
+
+    .main-btn:active {
+        background-color: rgb(3, 143, 3);
+    }
+
+    @media (max-width:768px) {
+        .wrapper h2 {
+            margin: 10px 0px;
+            font-size: 25px;
+        }
+
+        .wrapper h4 {
+            margin: 10px 0 20px;
+            font-size: 17px;
+        }
+
+        .wrapper {
+            margin: 10px 10px;
+        }
+
+        .wrapper .fa {
+            font-size: 250px;
+        }
+
+        .main-btn {
+            font-size: 17px;
+        }
+    }
+
+    @media (max-width:425px) {
+
+        .wrapper .fa {
+            font-size: 200px;
+        }
+    }
+</style>
+
+<body>
+    <div id="header"></div>
+    <div class="wrapper-main">
+        <div class="wrapper">
+            <h2>โอ้! ไม่พบหน้านี้</h2>
+            <div>
+                <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            </div>
+            <h4>เราไม่พบหน้าที่คุณกำลังค้นหา</h4>
+            <button class="main-btn" type="button" onclick="document.location='../index.html'">กลับหน้าหลัก</button>
+        </div>
+    </div>
+
+
+    <div id="footer"></div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/link.header.footer.js"></script>
+
+</html>

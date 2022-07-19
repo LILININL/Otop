@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/POS.css">
+    <link rel="stylesheet" href="css/resetcss.css">
+    <link rel="stylesheet" href="css/POS-responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="head-text">
+            <p id="border-heder">POS System</p>
+            <p>สหกรร้านค้าชุมชนบ้านท่าผา (ทดสอบ)</p>
+        </div>
+
+        <div class="head-btn">
+            <button><i class="fa fa-television" aria-hidden="true"></i></button>
+            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="tab-menu">
+            <div class="tab-btn">
+                <a href="#">งาน1 </a>
+                <a href="#">งาน2 </a>
+                <a href="#">งาน3 </a>
+                <div class="add-tab">
+                    <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="content">
+            <div class="grid-content">
+                <div class="change-money">
+                    <div class="member-bg">
+                        <div class="member">
+                            <div class="member-id text-head">
+                                <p>
+                                    รหัสสมาชิก/เบอร์โทรศัพท์
+                                </p>
+                                <input type="text">
+                            </div>
+                            <div class="member-name text-head">
+                                <p>
+                                    ชื่อ-นามสกุล
+                                </p>
+                                <input type="text">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="paymoney">
+                        <button onclick="">
+                            ชำระเงิน
+                        </button>
+                    </div>
+                    <div class="money-bg">
+                        <div class="money">
+                            <div class="chang-money">
+                                <p>เงินทอน</p>
+                                <i class="fa fa-money" aria-hidden="true"></i>
+
+                            </div>
+                            <div class="money-leaves">
+                                <div class="leave">
+                                    <div class="scrap-money">
+                                        <p>500</p><i class="fa fa-times" aria-hidden="true"></i>
+                                        <input type="text">
+                                        <p>ใบ</p>
+                                    </div>
+                                    <div class="scrap-money">
+                                        <p>100</p><i class="fa fa-times" aria-hidden="true"></i>
+                                        <input type="text">
+                                        <p>ใบ</p>
+                                    </div>
+                                    <div class="scrap-money">
+                                        <p>50</p><i class="fa fa-times" aria-hidden="true"></i>
+                                        <input type="text">
+                                        <p>ใบ</p>
+                                    </div>
+                                    <div class="scrap-money">
+                                        <p>20</p><i class="fa fa-times" aria-hidden="true"></i>
+                                        <input type="text">
+                                        <p>ใบ</p>
+                                    </div>
+                                    <div class="scrap-money">
+                                        <p>10</p><i class="fa fa-times" aria-hidden="true"></i>
+                                        <input type="text">
+                                        <p>เหรียญ</p>
+                                    </div>
+                                </div>
+                                <div class="coins">
+
+                                    <div class="scrap-money">
+                                        <p>5</p><i class="fa fa-times" aria-hidden="true"></i>
+                                        <input type="text">
+                                        <p>เหรียญ</p>
+                                    </div>
+                                    <div class="scrap-money">
+                                        <p>2</p><i class="fa fa-times" aria-hidden="true"></i>
+                                        <input type="text">
+                                        <p>เหรียญ</p>
+                                    </div>
+                                    <div class="scrap-money">
+                                        <p>1</p><i class="fa fa-times" aria-hidden="true"></i>
+                                        <input type="text">
+                                        <p>เหรียญ</p>
+                                    </div>
+                                    <div class="scrap-money">
+                                        <p>0.50</p><i class="fa fa-times" aria-hidden="true"></i>
+                                        <input type="text">
+                                        <p>เหรียญ</p>
+                                    </div>
+                                    <div class="scrap-money">
+                                        <p>0.25</p><i class="fa fa-times" aria-hidden="true"></i>
+                                        <input type="text">
+                                        <p>เหรียญ</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="scrap-money-underline"></div>
+                    </div>
+                </div>
+                <div class="list-product">
+
+                    <div class="list-table">
+                        <div class="search-table text-head">
+                            <p>Barcode / รหัสสินค้า</p>
+                            <div class="input-search"><input type="text"></div>
+
+                        </div>
+                        <div class="table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="tb-head-50">รายการสินค้า</th>
+                                        <th class="tb-head-15">ราคา/ชิ้น</th>
+                                        <th class="tb-head-15">จำนวน</th>
+                                        <th class="tb-head-15">รวม</th>
+                                        <th class="tb-head-5">#</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>
+                                            <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="total-body">
+                        <div class="total-list">
+                            <p>ทั้งหมด</p>
+                            <p>15</p>
+                            <p>รายการ</p>
+                        </div>
+                        <div class="total-num">
+                            <p>จำนวน</p>
+                            <p>50</p>
+                            <p>ชิ้น</p>
+                        </div>
+                        <div class="total-all">
+                            <p>ยอดรวม</p>
+                            <p>100.00</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>

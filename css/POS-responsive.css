@@ -1,0 +1,62 @@
+    @media screen and (max-width: 768px) {
+        .grid-content {
+            grid-template-columns: 1fr;
+        }
+        .list-product {
+            margin: 10px 0px;
+        }
+    }
+    
+    @media screen and (max-width: 566px) {
+        .member {
+            grid-template-columns: 1fr;
+        }
+        .paymoney {
+            justify-content: center;
+        }
+        .money-leaves {
+            grid-template-columns: 1fr;
+        }
+        .total-all {
+            margin-right: 30px;
+        }
+        .total-list p,
+        .total-num p {
+            max-width: 60px;
+        }
+        .head-text {
+            display: grid;
+        }
+        .head-text p {
+            display: flex;
+            margin: 10px 10px;
+        }
+        #border-heder {
+            border-right: none;
+        }
+        .tb-head-50 {
+            width: auto;
+        }
+        .tb-head-15 {
+            width: auto;
+        }
+        .head-btn {
+            display: grid;
+        }
+        /* .tb-head-5 {
+            width: auto;
+        } */
+    }
+    
+    @media screen and (max-width: 320px) {
+        .total-all {
+            font-size: 40px;
+            margin-right: 20px;
+        }
+        .paymoney button {
+            font-size: 18px;
+        }
+        .head-text p {
+            font-size: 18px;
+        }
+    }

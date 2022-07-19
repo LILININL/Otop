@@ -1,0 +1,275 @@
+/*---------------------------------- Profile-style ------------------------------------*/
+
+.font-profile {
+    font-size: 18px;
+}
+
+.profile-header {
+    background: rgba(255, 255, 255, 0.126);
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 0px, rgba(0, 0, 0, 0.23) 0px 3px 0px;
+    margin-bottom: 5px;
+}
+
+.profile-con {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5rem;
+}
+
+.block {
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+.data {
+    padding: 15px 12px;
+}
+
+.data1 {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.data1 p {
+    margin: 15px 0;
+}
+
+.data p {
+    padding: 12px 12px;
+}
+
+.pro-logo {
+    flex: initial;
+    justify-content: flex-start;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.profile-name {
+    margin-left: 20px;
+}
+
+.pro-logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.pro-logo h3 {
+    color: black;
+}
+
+.avatar-img {
+    width: 100px;
+    height: 100px;
+}
+
+.following {
+    width: 100%;
+    height: auto;
+}
+
+.following li {
+    margin-top: 15px;
+}
+
+.under-logo-button {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-gap: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.under-logo-button button {
+    width: 100%;
+}
+
+.follower {
+    background-color: rgba(235, 121, 40, 0.792);
+}
+
+.follower:hover {
+    color: white;
+    background-color: #874514;
+    transition: 0.6s;
+}
+
+.padding-product {
+    width: 100%;
+    height: auto;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 0.5rem;
+}
+
+.product-grid-item img {
+    width: 100%;
+}
+
+.product-grid-item {
+    margin: 5%;
+}
+
+.product-grid-item h1 {
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.product-grid-item p {
+    text-align: center;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+
+.product-grid-item:hover {
+    padding: 0px;
+    border: 1px solid #874514;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.profile {
+    position: relative;
+    width: 24rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.profile-cover-avatar {
+    position: relative;
+    display: block;
+    height: 5rem;
+    width: 5rem;
+    flex-shrink: 0;
+}
+
+.profile-avatar {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    box-sizing: border-box;
+    border-width: .25rem;
+    border-color: hsla(0, 0%, 100%, .4);
+}
+
+.profile-avatar-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.slide-grid {
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-gap: 0.5rem;
+}
+
+.slide-img img {
+    height: auto;
+    width: 100%;
+}
+
+.menu-profile {
+    width: 100%;
+    flex: initial;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.list-menu {
+    width: 100%;
+    display: none;
+}
+
+.menu-items {
+    width: 100%;
+}
+
+.menu-profile .menu-items ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    grid-gap: 0.5rem;
+}
+
+.menu-profile .menu-items ul li {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-profile .menu-items a {
+    width: 100%;
+    margin-bottom: 5px;
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    outline: none;
+    box-shadow: #874614a0 0px 3px 0px, rgb(0 0 0 / 23%) 0px 3px 0px;
+}
+
+.menu-profile .menu-items select {
+    width: 100%;
+    margin-bottom: 5px;
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* border: 0.1 solid #fff; */
+    border: 0px;
+    outline: 0px;
+    box-shadow: #874614a0 0px 3px 0px, rgb(0 0 0 / 23%) 0px 3px 0px;
+}
+
+.all-product {
+    padding: 14px 16px;
+    font-size: 25px;
+}
+
+.profile-content {
+    height: 500px;
+    width: 100%;
+    background-color: #d9d9d9;
+}
+
+.list-menu .checkbox {
+    display: none;
+}
+
+
+/*---------------------------------- Profile-style ------------------------------------*/
+
+
+/* ! ----------------------------------
+!              burger
+!-------------------------------------*/
+
+
+/* ! ----------------------------------
+!              burger
+!-------------------------------------*/

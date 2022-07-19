@@ -1,0 +1,432 @@
+    .body-profile {
+        color: #2e323c;
+        background: #faf8f5;
+        padding: 0%;
+        margin: 0%;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+    
+    .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .head-product {
+        font-size: 18px;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+
+    .form-control {
+        border: 1px solid #cfd1d8;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        font-size: 18px;
+        background: #ffffff;
+        color: #2e323c;
+    }
+
+    .card {
+        background: #ffffff;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border: 0;
+        margin-bottom: 1rem;
+
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row wrap;
+        align-items: center;
+    }
+
+    .row {
+        display: flex;
+        -ms-flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 120px;
+
+    }
+
+    .form-group {
+        font-size: 18px;
+    }
+
+    /* จัดการ หน้า card โปรไฟล์ทั้งหมด */
+    .account-settings .user-profile {
+        margin: 0 0 1rem 0;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .account-settings .user-profile .user-avatar {
+        margin: 0 0 1rem 0;
+    }
+
+    .account-settings .user-profile .user-avatar img {
+        width: 90px;
+        height: 80px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+    }
+
+    .account-settings .user-profile h5.user-name {
+        margin: 0 0 0.5rem 0;
+    }
+
+    .account-settings .user-profile h6.user-email {
+        margin: 0;
+        font-size: 15px;
+        font-weight: 400;
+        color: #9fa8b9;
+    }
+
+    .account-settings .about {
+        margin: 2rem 0 0 0;
+        text-align: center;
+    }
+
+    .account-settings .about h5 {
+        margin: 0 0 15px 0;
+        color: #007ae1;
+    }
+
+    .account-settings .about p {
+        font-size: 18px;
+    }
+
+    /* หน้าโปรไฟล์หลัก */
+    .account-settings-all .user-profile-all {
+        margin: 0 0 0 0;
+        padding-bottom: 0;
+        text-align: center;
+    }
+
+    .account-settings-all .user-profile-all .user-avatar-pofile {
+        margin: 0 0 0 0;
+    }
+
+    .account-settings-all .user-profile-all .user-avatar-pofile img {
+        width: 90px;
+        height: 80px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+    }
+
+    .card-body-allproflie {
+        min-height: 1px;
+        height: 120px;
+        padding: 1.50rem;
+        margin-bottom: 0px;
+
+    }
+
+    /* รายการโปรด */
+    .card-Favoritesbox {
+        margin-bottom: 15px;
+        border-radius: 0;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, .1);
+    }
+
+    .grid-Favoritesbox>div {
+        border-radius: 10px;
+        align-items: left;
+        padding: 5px;
+    }
+
+    /* โปรไฟล์ Payment */
+    .field {
+        margin-bottom: 25px;
+    }
+
+    .field.full {
+        width: 100%;
+    }
+
+    .field.half {
+        width: calc(50% - 12px);
+    }
+
+    .field label {
+        display: block;
+        text-transform: uppercase;
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .field input {
+        padding: 12px;
+        border-radius: 6px;
+        border: 2px solid #e8ebed;
+        display: block;
+        font-size: 18px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .field input:placeholder {
+        color: #e8ebed !important;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row wrap;
+        align-items: center;
+    }
+
+    .flex.justify-space-between {
+        justify-content: space-between;
+    }
+
+    .card .container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .card .card-title {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .text-dark{
+        color: #2e323c;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .text-muted{
+        font-size: 20px;
+    }
+
+    .card .card-title h2 {
+        line-height: 30px;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .card .card-body .payment-type,
+    .card .card-body .payment-info {
+        margin-bottom: 25px;
+    }
+
+    .card .card-body .payment-type h4 {
+        margin: 0;
+    }
+
+    .card .card-body .payment-type .types {
+        margin: 20px 0;
+    }
+
+    .card .card-body .payment-type .types .type {
+        width: 40%;
+        position: relative;
+        background: #f2f4f7;
+        border: 2px solid #e8ebed;
+        padding: 50px;
+        box-sizing: border-box;
+        border-radius: 6px;
+        cursor: pointer;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+
+    .card .card-body .payment-type .types .type:hover {
+        border-color: #28333b;
+    }
+
+    .card .card-body .payment-type .types .type:hover .logo,
+    .card .card-body .payment-type .types .type:hover p {
+        color: #28333b;
+    }
+
+    .card .card-body .payment-type .types .type.selected {
+        border-color: #40b3ff;
+        background: rgba(64, 179, 255, 0.1);
+    }
+
+    .card .card-body .payment-type .types .type.selected .logo {
+        color: #40b3ff;
+    }
+
+    .card .card-body .payment-type .types .type.selected p {
+        color: #28333b;
+    }
+
+    .card .card-body .payment-type .types .type.selected::after {
+        content: '\f00c';
+        font-weight: 900;
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        top: -21px;
+        right: -21px;
+        background: #fff;
+        border: 2px solid #40b3ff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card .card-body .payment-type .types .type .logo,
+    .card .card-body .payment-type .types .type p {
+        transition: all 0.5s ease;
+    }
+
+    .card .card-body .payment-type .types .type .logo {
+        font-size: 50px;
+        color: #8a959c;
+    }
+
+    .card .card-body .payment-type .types .type p {
+        margin-bottom: 0;
+        padding: 15px;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+
+    }
+
+    .card .card-body .payment-info .column {
+        width: calc(50% - 25px);
+    }
+
+    .card .card-body .payment-info .title {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .card .card-body .payment-info .title .num {
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        border: 2px solid #40b3ff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-right: 12px;
+        font-size: 18px;
+    }
+
+    .numbercard {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    /* การ์ด Refun  */
+    .grid-refunbox>div {
+        border-radius: 10px;
+        box-shadow: 0 6px 10px rgba(0, 0, 0, .1);
+        align-items: left;
+        padding: 10px;
+        line-height: 25px;
+    }
+
+    /* การ์ด รีวิว reviwe */
+    .grid-reviwbox>div {
+        border-radius: 10px;
+        align-items: left;
+        padding: 0px;
+        line-height: 25px;
+        justify-content: center
+    }
+
+    .container-fluid {
+        box-shadow: 0 6px 10px rgba(0, 0, 0, .1);
+        border-radius: 10px;
+    }
+
+    /* หน้าตั้งค่าที่อยู่ Card edit-address */
+    .row-address {
+        padding-top: 10px;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .form-row-address {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .row-btn {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+
+    /* หน้า checkout ตาราง */
+    @media screen and (max-width: 600px) {
+        table#cart tbody td .form-control {
+            width: 20%;
+            display: inline !important;
+            
+        }
+
+        .actions .btn {
+            width: 36%;
+            margin: 1.5em 0;
+        }
+
+        .actions .btn-info {
+            float: left;
+        }
+
+        .actions .btn-danger {
+            float: right;
+        }
+
+        table#cart thead {
+            display: none;
+        }
+
+        table#cart tbody td {
+            display: block;
+            padding: .6rem;
+            min-width: 3200px;
+            
+        }
+        table#cart tbody td:before {
+            content: attr(data-th);
+            font-weight: bold;
+            display: inline-block;
+            width: 6rem;
+        }
+
+        table#cart tfoot td {
+            display: block;
+            
+        }
+
+        table#cart tfoot td .btn {
+            display: block;
+        }
+    }
+    .table td, .table th {
+        padding: 10px;
+        margin-bottom: 0;
+        vertical-align: text-top;
+        border-top: 1px solid #dee2e6;
+    }
+
+    /* ส่วนเปลียนที่อยู้่ */
+    .charddress {
+        box-shadow: 0 6px 10px rgba(0, 0, 0, .1);
+        border-radius: 10px;
+        margin-top: 20px;
+    }

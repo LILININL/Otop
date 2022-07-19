@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/detail-product.css">
+    <link rel="stylesheet" href="css/detail-product-responsive.css">
+    <link rel="stylesheet" href="css/resetcss.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="shortcut icon" href="img/otoplogos.gif" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script>
+        $(function() {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        })
+    </script>
+    <title>ลายละเอียดสินค้า</title>
+
+</head>
+<div id="header"></div>
+
+<body>
+    <div class="container">
+        <div class="product-font-size">
+            <div class="product">
+                <div class="product-image-bg">
+                    <div class="product-image">
+                        <div class="featured"><img id=featured src="img/tadang1.jpg"></div>
+
+
+                        <div id="slide-wrapper">
+                            <img id="slideLeft" class="arrow" src="img/arrow-left.png">
+
+                            <div id="slider">
+                                <img class="thumbnail active" src="img/tadang1.jpg">
+                                <img class="thumbnail active" src="https://via.placeholder.com/400x400">
+                                <img class="thumbnail active" src="img/tadang1.jpg">
+                                <img class="thumbnail active" src="https://via.placeholder.com/400x400">
+                            </div>
+
+                            <img id="slideRight" class="arrow" src="img/arrow-right.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="product-name">
+                    <h1>ชื่อสินค้า</h1>
+                    <div class="ratting">
+                        <div class="star">
+                            <p>4.7</p>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <div class="rate">
+                            <p>500 </p>
+                            <p>คะแนน</p>
+                        </div>
+                        <div class="num-sale">
+                            <p>3000 </p>
+                            <p>ชิ้น</p>
+                        </div>
+                    </div>
+
+                    <div class="price">
+                        <p id="pr">5000</p>
+                        <p>บาท</p>
+                    </div>
+
+                    <div class="select-detail">
+                        <div class="detail-name">
+                            <p>สี</p>
+                        </div>
+                        <div id="Mydetail-btn" class="detail-btn">
+                            <button class="btn">ฟ้า</button>
+                            <button class="btn">แดง</button>
+                            <button class="btn">ส้ม</button>
+                            <button class="btn">เหลือง</button>
+                            <button class="btn">ฟ้าผมเหลือง</button>
+                            <button class="btn">ส้มแดง</button>
+                            <button class="btn">ส้มน้ำเงิน</button>
+                            <button class="btn">น้ำเงินเหลือง</button>
+                        </div>
+                    </div>
+                    <div class="quantity">
+                        <div class="num">
+                            <p>จำนวน</p>
+                        </div>
+                        <button><i class="fa fa-minus" aria-hidden="true"></i>
+                        </button>
+                        <input type="text" role="spinbutton" value="1">
+                        <button><i class="fa fa-plus" aria-hidden="true"></i></button>
+                        <div class="piece">
+                            <p>มีสินค้า</p>
+                            <p>500</p>
+                            <p>ชิ้น</p>
+                        </div>
+                    </div>
+                    <div class="buy-product-btn">
+                        <button><i class="fa fa-cart-plus" aria-hidden="true"></i> เพิ่มเข้าตระกร้า</button>
+                        <a href="#">ซื้อเลย</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-store">
+                <div class="image-bg">
+                    <div class="image-store">
+                        <div class="img-store"><img src="img/otoplogos.gif" alt=""></div>
+                        <div class="name-btn">
+                            <p>OtopThailand</p>
+                            <div class="btn-chat">
+                                <button><i class="fa fa-comments" aria-hidden="true"></i> ติดต่อร้านค้า</button>
+                                <button><i class="fa fa-shopping-basket" aria-hidden="true"></i> ดูร้านค้า</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="store-rate">
+                    <div class="bl">
+                        <p>รายการสินค้า : 10</p>
+                        <p>คะแนน : 1000 </p>
+                    </div>
+                    <div class="bl">
+                        <p>ผู้ติดตาม : 120</p>
+                        <p>คะแนน : 3.5 (ทั้งหมด : 10)</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-detail">
+
+                <div class="product-descript">
+                    <h1>รายละเอืยดสินค้า</h1>
+                    <div class="descript">
+                        <p>คุณกำลังมองหาความพิเศษในโครงเตียงโลหะที่มีความเรียบง่าย อยู่ใช่ไหม ลองเข้ามาดูเตียง Ethan Platforma ของเรา ด้วยโครงฐานที่ทำจากวัสดุเหล็กที่หนา สามารถใช้งานได้กับทั้งโครงและ Box Spring ซึ่งทั้งหมดนี้ จะเปลี่ยนบรรยากาศในห้องนอนของคุณให้มีสัมผัสของความทันสมัยและดูสวย
+                            ด้วยความสูงขนาด 7 นิ้วที่เป็นทรงเตี้ย เหมาะสำหรับที่นอนที่มีความหนา แต่ไม่ว่าที่นอนของคุณจะมีความหนากี่นิ้วฐานรองที่นอนไม้ของ Ethan ที่มีความแข็งแรง ก็สามารถให้การรองรับที่ดีที่สุดกับที่นอนของคุณ พร้อมช่วยพยุงให้ที่นอนไม่หย่อนคล้อย
+                            พร้อมขั้นตอนการประกอบที่ง่ายที่สุด ทุกสิ่งที่คุณต้องใช้เพื่อการประกอบเตียงที่สามารถทำได้ภายในหนึ่งชั่วโมง ได้บรรจุรวมไว้อย่างเรียบร้อยในกล่องจัดส่งทั้งชิ้นส่วน เครื่องมือและคู่มือที่มีคำอธิบายในทุกขั้นตอน รวมถึงการรับประกัน
+                            5 ปี ให้คุณสบายใจและไร้กังวล ซึ่งฐานเตียง Ethan Platform เป็นบทพิสูจน์แล้วว่า รูปลักษณ์ที่โฉบเฉี่ยวและเรียบง่ายแบบ Minimal ไม่จำเป็นต้องหมายถึงการรองรับที่ Minimal เสมอไป</p>
+                    </div>
+
+                </div>
+
+                <div class="product-content">
+                    <img src="/img/slider3.jpg" alt="">
+                    <img src="/img/slider1.jpg" alt="">
+                    <img src="/img/slider2.png" alt="">
+                </div>
+            </div>
+            <div class="product-comment">
+                <div class="comment-header">
+                    <h1>คะแนนสิ้นค้า</h1>
+                </div>
+                <div class="product-rating">
+                    <div class="product-star">
+                        <div class="ra">
+                            <p id="percen-rate">4.7</p>
+                            <p>จาก 5</p>
+                        </div>
+                        <div class="star">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+
+                        </div>
+                    </div>
+                    <div class="product-star-btn">
+                        <div id="star-btn" class="star-btn">
+                            <button class="btn active">ทั้งหมด</button>
+                            <button class="btn">5 ดาว (0)</button>
+                            <button class="btn">4 ดาว (0)</button>
+                            <button class="btn">3 ดาว (0)</button>
+                            <button class="btn">2 ดาว (0)</button>
+                            <button class="btn">1 ดาว (0)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment-bg">
+                    <div class="comment-box">
+                        <div class="comment-user-img">
+                            <img src="/img/user.png" alt="">
+                        </div>
+                        <div class="comment">
+                            <div class="comment-user-name">
+                                <p>nattida maneewong</p>
+                            </div>
+                            <div class="comment-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="comment-text">
+                                <p id="time">10/03/65 10:36</p>
+                                <p>อร่อยมาก ของดีจัดๆเลย สะอาดและถูกมากด้วยรสชาตกลมกล่อม หาที่ไหนไม่ได้อีกแล้วนอกขากร้านนี้</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-box">
+                        <div class="comment-user-img">
+                            <img src="/img/user.png" alt="">
+                        </div>
+                        <div class="comment">
+                            <div class="comment-user-name">
+                                <p>nattida maneewong</p>
+                            </div>
+                            <div class="comment-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="comment-text">
+                                <p id="time">10/03/65 10:36</p>
+                                <p>อร่อยมาก ของดีจัดๆเลย สะอาดและถูกมากด้วยรสชาตกลมกล่อม หาที่ไหนไม่ได้อีกแล้วนอกขากร้านนี้</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+<!-- image slide------------------------------- -->
+<script type="text/javascript">
+    let thumbnails = document.getElementsByClassName('thumbnail')
+
+    let activeImages = document.getElementsByClassName('active')
+
+    for (var i = 0; i < thumbnails.length; i++) {
+
+        thumbnails[i].addEventListener('mouseover', function() {
+            console.log(activeImages)
+
+            if (activeImages.length > 0) {
+                activeImages[0].classList.remove('active')
+            }
+
+
+            this.classList.add('active')
+            document.getElementById('featured').src = this.src
+        })
+    }
+
+
+    let buttonRight = document.getElementById('slideRight');
+    let buttonLeft = document.getElementById('slideLeft');
+
+    buttonLeft.addEventListener('click', function() {
+        document.getElementById('slider').scrollLeft -= 180
+    })
+
+    buttonRight.addEventListener('click', function() {
+        document.getElementById('slider').scrollLeft += 180
+    })
+</script>
+<!-- image slide------------------------------- -->
+
+<!-- select detail product -->
+<script>
+    // Add active class to the current button (highlight it)
+    var header = document.getElementById("Mydetail-btn");
+    var btns = header.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            if (current.length > 0) {
+                current[0].className = current[0].className.replace(" active", "");
+            }
+            this.className += " active";
+        });
+    }
+</script>
+<!-- select detail product -->
+<!-- select -star -->
+<script>
+    // Add active class to the current button (highlight it)
+    var header = document.getElementById("star-btn");
+    var btns = header.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script>
+<!-- select -star -->
+
+
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+
+<div id="footer"></div>
+<!-- gallery  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+<!-- gallery  -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/link.header.footer.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="js/sliderimg.js"></script>
+
+</html>
